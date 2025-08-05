@@ -1,0 +1,97 @@
+body, * {
+    font-family: 'Segoe UI', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.Responsibles__departments {
+    padding: 24px 18px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px #e9edc9cc;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    background: #fefae0;
+    margin-bottom: 32px;
+}
+
+
+.Responsibles__departments > div:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 16px #e9edc9cc;
+}
+
+
+.Responsibles__departments > div {
+    flex: 0 1 30%;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #e9edc9cc;
+    padding: 18px;
+    margin: 8px;
+}
+
+
+.Responsibles__departments input, .Responsibles__departments textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: 1.5px solid #faedcd;
+    font-size: 1rem;
+    background: #fefae0;
+    color: #b4845c;
+    font-weight: 600;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.Responsibles__departments input:focus, .Responsibles__departments textarea:focus {
+    border-color: #d4a373;
+    outline: none;
+    box-shadow: 0 2px 8px #e9edc9cc;
+}
+
+
+.Responsibles__Business__Title, .Responsibles__IT__Title {
+    color: #b4845c;
+    font-weight: 700;
+    margin-bottom: 32px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+.DepartmentName {
+    color: #b4845c;
+    font-weight: 700;
+    font-size: 1.08rem;
+    margin-bottom: 8px;
+}
+
+
+
+.add-btn, .delete-btn {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 20px;
+    transition: transform 0.3s;
+}
+.add-btn:hover, .delete-btn:hover {
+    transform: scale(1.2);
+}
+.delete-btn {
+    color: #d9534f;
+}
+.add-btn {
+    color: #198754;
+}
+.responsible-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  

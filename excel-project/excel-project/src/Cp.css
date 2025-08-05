@@ -1,0 +1,98 @@
+
+.glass-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px #e9edc9cc;
+  padding: 40px 36px 32px 36px;
+  margin: 40px auto;
+  max-width: 700px;
+}
+
+.glass-navbar {
+  border-radius: 18px;
+  box-shadow: 0 2px 8px #e9edc9cc;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.brand-gradient {
+  background: linear-gradient(90deg, #d4a373, #b4845c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.back-button{
+  background: #fefae0;
+  border: 1.5px solid #faedcd;
+  border-radius: 8px;
+  color: #b4845c;
+  font-weight: 600;
+  padding: 8px 12px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.back-button:hover {
+  background: #fefae0 !important;
+  border-color: #d4a373 !important;
+  box-shadow: 0 2px 8px #e9edc9cc !important;
+}
+
+.dev-input {
+  background: #fefae0;
+  border: 1.5px solid #faedcd;
+  border-radius: 8px;
+  color: #b4845c;
+  font-weight: 600;
+  padding: 8px 12px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.dev-input:focus {
+  border-color: #d4a373;
+  outline: none;
+  box-shadow: 0 2px 8px #e9edc9cc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
